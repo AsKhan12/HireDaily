@@ -1,0 +1,11 @@
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/HireDaily.Core.deps.json
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/HireDaily.Core.dll
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/HireDaily.Core.pdb
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.AssemblyInfoInputs.cache
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.AssemblyInfo.cs
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.csproj.CoreCompileInputs.cache
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.dll
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/refint/HireDaily.Core.dll
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/HireDaily.Core.pdb
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/obj/Release/net9.0/ref/HireDaily.Core.dll

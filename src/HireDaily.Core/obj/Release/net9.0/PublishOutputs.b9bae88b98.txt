@@ -1,0 +1,3 @@
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/publish/HireDaily.Core.dll
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/publish/HireDaily.Core.deps.json
+/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Core/bin/Release/net9.0/publish/HireDaily.Core.pdb

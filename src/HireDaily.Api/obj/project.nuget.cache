@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sy5Z/Tz5+Iw=",
+  "success": true,
+  "projectFilePath": "/Users/asifkhan/GitHubProjects/HireDaily/src/HireDaily.Api/HireDaily.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/asifkhan/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/Users/asifkhan/.nuget/packages/microsoft.openapi/2.3.0/microsoft.openapi.2.3.0.nupkg.sha512",
+    "/Users/asifkhan/.nuget/packages/swashbuckle.aspnetcore/10.0.1/swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
+    "/Users/asifkhan/.nuget/packages/swashbuckle.aspnetcore.swagger/10.0.1/swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
+    "/Users/asifkhan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.0.1/swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
+    "/Users/asifkhan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.0.1/swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
