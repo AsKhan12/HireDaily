@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlock\src\API\API.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Hiredaily.Modules.JobApplication.API</AssemblyName>
+    <RootNamespace>Hiredaily.Modules.JobApplication.API</RootNamespace>
+  </PropertyGroup>
+
+</Project>

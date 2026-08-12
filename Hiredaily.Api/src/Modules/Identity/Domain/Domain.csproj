@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlock\src\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Hiredaily.Modules.Identity.Domain</AssemblyName>
+    <RootNamespace>Hiredaily.Modules.Identity.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>

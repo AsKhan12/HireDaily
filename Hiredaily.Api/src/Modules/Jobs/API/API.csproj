@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Hiredaily.Modules.Jobs.API</AssemblyName>
+    <RootNamespace>Hiredaily.Modules.Jobs.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Application/Application.csproj" />
+    <ProjectReference Include="../Domain/Domain.csproj" />
+    <ProjectReference Include="../Infra/Infra.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\API\API.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\Application\Application.csproj" />
+  </ItemGroup>
+
+</Project>

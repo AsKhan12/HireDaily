@@ -1,0 +1,281 @@
+.user-profile-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  padding: 1rem 2rem;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.profile-title {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+.profile-username {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.profile-section {
+  padding: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.editable-section {
+  cursor: pointer;
+}
+
+.editable-section:hover {
+  background: #fcfcff;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.section-title {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  color: #333;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.edit-hint,
+.profile-step-status {
+  color: #667eea;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.profile-step-status {
+  padding: 1.25rem 2rem 0;
+}
+
+.profile-details,
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 4px solid #667eea;
+  border-radius: 8px;
+}
+
+.detail-label {
+  min-width: 120px;
+  color: #333;
+  font-weight: 600;
+}
+
+.detail-value {
+  flex: 1;
+  color: #666;
+  overflow-wrap: anywhere;
+}
+
+.update-error,
+.error {
+  color: #b42318;
+  background: #fef3f2;
+  border-radius: 8px;
+}
+
+.update-error {
+  margin: 1rem 2rem 0;
+  padding: 0.8rem 1rem;
+}
+
+.loading,
+.error,
+.no-data {
+  padding: 3rem 2rem;
+  color: #666;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.error {
+  color: #b42318;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.edit-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.edit-form input,
+.edit-form textarea,
+.edit-form select {
+  padding: 0.75rem;
+  font: inherit;
+  border: 1px solid #d0d5dd;
+  border-radius: 7px;
+}
+
+.edit-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-actions,
+.profile-navigation {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.profile-navigation {
+  justify-content: space-between;
+  padding: 1.25rem 2rem 2rem;
+}
+
+.form-actions button,
+.profile-navigation button,
+.remove-skill {
+  padding: 0.7rem 1rem;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+  background: #667eea;
+  border: 0;
+  border-radius: 7px;
+}
+
+.form-actions .secondary,
+.profile-navigation .secondary {
+  color: #344054;
+  background: #eaecf0;
+}
+
+.form-actions button:disabled,
+.profile-navigation button:disabled,
+.remove-skill:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  position: relative;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.remove-skill {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.4rem 0.65rem;
+  background: #d92d20;
+}
+
+.skill-name {
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.skill-field,
+.skill-level-label {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.skill-description {
+  color: #666;
+}
+
+.skill-level {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-level-bar {
+  flex: 1;
+  height: 8px;
+  overflow: hidden;
+  background: #e5e5e5;
+  border-radius: 4px;
+}
+
+.skill-level-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+@media (max-width: 768px) {
+  .user-profile-page {
+    padding: 1rem;
+  }
+
+  .profile-header,
+  .profile-section {
+    padding: 1.5rem;
+  }
+
+  .profile-title {
+    font-size: 1.8rem;
+  }
+
+  .detail-row,
+  .section-heading {
+    flex-direction: column;
+  }
+
+  .detail-label {
+    min-width: auto;
+  }
+
+  .form-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: auto;
+  }
+}

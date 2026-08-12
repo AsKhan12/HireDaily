@@ -1,0 +1,45 @@
+{
+    "id": "146f902e-6f0c-4b43-9c02-3f39139f65cc",
+    "aggregateId": "",
+    "timestamp": "2026-07-11T16:43:38.490127Z",
+    "jobId": "146f902e-6f0c-4b43-9c02-3f39139f65cc",
+    "organizationId": "24ffd982-f9f6-4827-86c1-a795b3ffe66c",
+    "geoHash": "tunb5jn",
+    "locationBucket": "tunb5jn",
+    "createdAt": "2026-07-11T16:43:38.489962Z",
+    "jobCreatedAt": "2026-07-11T16:43:38.489962Z",
+    "jobLastUpdatedAt": null,
+    "hourlyRate": {
+        "amount": 56,
+        "currency": "INR",
+        "isZero": false
+    },
+    "jobSite": {
+        "location": {
+            "lat": "22.52771371973687",
+            "long": "88.38265818434245"
+        },
+        "address": {
+            "addressLine1": "a",
+            "addressLine2": "m",
+            "city": "z",
+            "state": "o",
+            "country": "India",
+            "postalCode": "100098"
+        }
+    },
+    "requiredSkills": [
+        {
+            "name": "c#",
+            "field": "IT",
+            "description": "DEV",
+            "skillLevel": 0
+        }
+    ],
+    "isActive": true,
+    "_rid": "LTVRALA+rccUAAAAAAAAAA==",
+    "_self": "dbs/LTVRAA==/colls/LTVRALA+rcc=/docs/LTVRALA+rccUAAAAAAAAAA==/",
+    "_etag": "\"4b00f24e-0000-2000-0000-6a527b6a0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1783790442
+}

@@ -1,0 +1,285 @@
+.job-details {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  color: #1f2937;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.job-details-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.job-details-kicker {
+  margin: 0 0 0.25rem;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.job-details-title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.job-details-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+}
+
+.job-details-meta div {
+  min-width: 130px;
+}
+
+.job-details-meta dt {
+  color: #6b7280;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.job-details-meta dd {
+  margin: 0.25rem 0 0;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.job-details-error {
+  margin: 1rem 1.5rem 0;
+  padding: 0.85rem 1rem;
+  color: #b42318;
+  background: #fef3f2;
+  border-radius: 7px;
+}
+
+.job-details-success {
+  margin: 1rem 1.5rem 0;
+  padding: 0.85rem 1rem;
+  color: #067647;
+  background: #ecfdf3;
+  border-radius: 7px;
+}
+
+.job-details-section {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.job-details-section:last-child {
+  border-bottom: 0;
+}
+
+.job-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.job-section-heading h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.job-section-heading button,
+.job-form-actions button,
+.job-skill button {
+  padding: 0.65rem 0.9rem;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  background: #2563eb;
+  border: 0;
+  border-radius: 7px;
+}
+
+.job-section-heading button:disabled,
+.job-form-actions button:disabled,
+.job-skill button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.job-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.job-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #374151;
+  font-weight: 700;
+}
+
+.job-form input,
+.job-form textarea,
+.job-form select {
+  width: 100%;
+  padding: 0.75rem;
+  color: #111827;
+  font: inherit;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+}
+
+.job-form textarea {
+  min-height: 96px;
+  resize: vertical;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.job-form-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.job-form-actions .secondary {
+  color: #374151;
+  background: #e5e7eb;
+}
+
+.job-value {
+  margin: 0;
+  padding: 1rem;
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  border-radius: 7px;
+}
+
+.job-details-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.job-details-list p {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  border-radius: 7px;
+}
+
+.job-details-list span {
+  color: #374151;
+  font-weight: 700;
+}
+
+.job-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.job-skill {
+  position: relative;
+  min-height: 160px;
+  padding: 1rem;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.job-skill button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.4rem 0.65rem;
+  background: #dc2626;
+}
+
+.job-skill-actions {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.job-skill-actions button {
+  position: static;
+  padding: 0.4rem 0.65rem;
+  background: #2563eb;
+}
+
+.job-skill-actions .danger {
+  background: #dc2626;
+}
+
+.job-skill h4 {
+  margin: 0 8rem 0.35rem 0;
+  color: #111827;
+}
+
+.job-skill p {
+  margin: 0.35rem 0;
+  color: #4b5563;
+}
+
+.job-skill .job-skill-field,
+.job-skill span {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.job-empty {
+  margin: 0;
+  padding: 1.5rem;
+  color: #6b7280;
+  text-align: center;
+  background: #f9fafb;
+  border-radius: 7px;
+}
+
+.job-create-form {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.job-create-skills {
+  margin-top: 1rem;
+}
+
+.job-create-skills-editor {
+  display: grid;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+@media (max-width: 760px) {
+  .job-details-header,
+  .job-section-heading {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .job-details-meta,
+  .job-form,
+  .job-details-list p {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: auto;
+  }
+}

@@ -1,0 +1,6 @@
+- Only one worker can be assigned per job
+- Wage must be locked before job starts
+- Payment released only after mutual confirmation
+- Worker must accept within time window
+- Worker must reach job site within given timeframe
+- Disputes require manual intervention

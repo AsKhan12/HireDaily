@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Hiredaily.Modules.Feed.API</AssemblyName>
+    <RootNamespace>Hiredaily.Modules.Feed.API</RootNamespace>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Infra\Infra.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\API\API.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\Application\Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlock\src\Domain\Domain.csproj" />
+  </ItemGroup>
+</Project>
